@@ -58,8 +58,74 @@ public class HelloDemo{
 
     //System.out.println(3 == 6); Comparison operator ;
 
-    System.out.println((3 == 6) && (6 > 3)); // Logical AND operator
+    //System.out.println((3 == 6) && (6 > 3)); // Logical AND operator
+
+    // if statement , if else 
+    /*int x  = 40 ;
+    if ( x > 30){
+      System.out.println("x is greater than 30");
+    }else{
+      System.out.println("x is not greater than 30");
+    }*/
+
+    /* int time  = 22 ;
+
+    if ( time < 10){
+      System.out.println("Good morning");
+    } else if ( time < 18){
+      System.out.println("Good day");
+    }else{
+      System.out.println("Good evening");
+    }*/
+
+    // tenary operator
+    // int x = 10;
+    // String result = (x > 5) ? "x is greater than 5" : "x is not greater than 5";
+    // System.out.println(result); // prints "x is greater than 5"
+
+    // an example to find out if a number is positive , negative or zero
+    /* int x = 0 ;
+
+    if ( x > 0){
+      System.out.println("x is positive");
+    }else if ( x < 0){
+      System.out.println("x is negative");
+    }else {
+      System.out.println("x is zero");
+    } */
+
+    /*int x = 44 ;
+    if ( x % 2 == 0) {
+      System.out.println("x is even");
+    } else {
+      System.out.println("x is odd");
+    }*/
+
+    // while loop
+
+    /*int i  = 0 ;
+    while ( i < 5){
+      System.out.println(i);
+      i++;
+    }*/
+
+    /*int i  = 0 ;
+    do{
+      System.out.println(i);
+      i++;
+    }while (i < 5);*/
+
+    int countdown = 3;
+
+    while (countdown > 0) {
+      System.out.println(countdown);
+      countdown--;
+    }
+
+    System.out.println("Happy New Year!!");
   }
+
+
 }
 
 // Java basics recap 
