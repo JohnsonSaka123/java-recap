@@ -1,5 +1,8 @@
-public class HelloDemo{
-  public static void main(String[] args) {
+import java.io.Console;
+import java.util.Arrays;
+
+//public class HelloDemo{
+  //public static void main(String[] args) {
     /*System.out.println("Hello, world");
     System.out.println("Welcome walker");*/
     //int age = 21 ; // variable declaration and initialization
@@ -115,18 +118,137 @@ public class HelloDemo{
       i++;
     }while (i < 5);*/
 
-    int countdown = 3;
+    /*int countdown = 3;
 
     while (countdown > 0) {
       System.out.println(countdown);
       countdown--;
     }
 
-    System.out.println("Happy New Year!!");
-  }
+    System.out.println("Happy New Year!!");*/
+
+    // for loops 
+    /*for (int i = 0; i < 5; i++) {
+      System.out.println(i);
+    }*/
+
+    // print even numbers between 0 and 10
+    /*for(int i = 0 ; i <= 10; i= i + 2){
+      System.out.println(i);
+    }*/
+
+    // nested for loops
+
+    // for each loop
+
+    /*int[] myArray =  {1,2,3,4,5};
+
+    for (int i : myArray){
+      System.out.println(i);
+    }*/
+
+    /*for(int i = 0; i <= 100 ; i += 10){
+      System.out.println(i);
+    }*/
+
+    /*int number = 2 ;
+
+    for(int i = 1 ; i<= 12 ; i++){
+      System.out.println(number + " x " + i  + " = " + (number * i));
+    }*/
 
 
-}
+    // switch statement
+
+    /*int day = 2; ;
+    switch(day) {
+      case 1:
+        System.out.println("Monday");
+        break;
+      case 2:
+        System.out.println("Tuesday");
+        break;
+      case 3:
+        System.out.println("Wednesday");
+        break;
+      default:
+        System.out.println("Invalid day");
+        break;
+    }*/
+
+
+    // java arrays
+    //String[] cars = {"Toyota" , "Honda"};
+    //System.out.println(cars[0]); // prints "Toyota"
+
+    //cars[1] = "Ford" ; 
+
+    // array of integers
+    /*int[] numbers = { 1, 2, 3};
+    System.out.println(numbers[1]); // prints 2
+    numbers[2] = 4 ;
+    System.out.println(numbers[2]);
+
+    //finding the length of an array
+    System.out.println(cars.length);*/
+
+    // loops with arrays
+    /*for ( String car : cars){
+      System.out.println(car);
+    }
+
+    for( int i = 0; i < cars.length ; i++){
+      System.out.println(cars[i]);
+    }*/
+
+    /*int[] ages = { 21, 19 , 25 , 30 , 45} ;
+
+    float sum = 0 ;
+    float avg = 0 ;
+
+    for(int age : ages){
+      sum += age;
+    }
+
+    avg = sum / ages.length ;
+    System.out.println("Sum of ages: " + sum);
+    System.out.println("Average age: " + avg); */
+
+    // methods in java 
+    
+    /*myMethod();
+    myMethod();
+    myMethod();*/
+
+    //myMethod("Walker");
+
+    //System.out.println("Hello , world !");
+  
+  //}
+
+  /*static void myMethod(){
+    System.out.println("I just got executed");
+  }*/
+
+
+  /*static void myMethod(String name){
+    System.out.println("Hello, " + name);
+  }*/
+
+  // method overloading
+  // having same method name with different parameters
+
+  /*int myMethod(int x)
+  float myMethod(float x)
+  double myMethod(double x, double y)*/
+
+ // scope
+
+ // OOP using java
+
+
+
+//}
 
 // Java basics recap 
 // the main mehtod - public static void main(String[] args)
@@ -140,3 +262,20 @@ public class HelloDemo{
 // type casting - converting one data type to another
 
 // widening casting - passing a smaller data type to a larger data type
+ class HelloDemo{
+
+
+  public static void main(String[] args){
+    /*int[] numbers = { 10, 20 , 30};
+
+    System.out.println(numbers.length);
+    System.out.println(Arrays.toString(numbers));*/
+
+    Array numbers = new Array(3);
+    numbers.insert(10);
+    numbers.insert(20);
+    numbers.insert(30);
+    numbers.insert(40); // This will trigger resizing of the array
+    numbers.print();
+  }
+ }
