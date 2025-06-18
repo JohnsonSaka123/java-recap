@@ -371,5 +371,18 @@ import java.util.Iterator;
     numbers.add(10);
     numbers.add(20);
     numbers.add(30);
+
+    System.out.println("List: " +  numbers);
+
+    //creating an instance of the Iterator
+
+    Iterator<Integer> iterate = numbers.iterator();
+    int number = iterate.next();
+
+
+    System.out.println(number);
+    System.out.println(iterate.hasNext());
+    iterate.remove();
+    System.out.println("Removed Element: " + number);
   }
  }
