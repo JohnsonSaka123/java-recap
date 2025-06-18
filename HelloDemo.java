@@ -1,5 +1,11 @@
-import java.io.Console;
-import java.util.Arrays;
+//import java.io.Console;
+//import java.util.Arrays;
+//import java.util.Arrays;
+//import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Iterator;
 
 //public class HelloDemo{
   //public static void main(String[] args) {
@@ -262,20 +268,108 @@ import java.util.Arrays;
 // type casting - converting one data type to another
 
 // widening casting - passing a smaller data type to a larger data type
- class HelloDemo{
+ //class HelloDemo{
 
 
-  public static void main(String[] args){
+ // public static void main(String[] args){
     /*int[] numbers = { 10, 20 , 30};
 
     System.out.println(numbers.length);
     System.out.println(Arrays.toString(numbers));*/
 
-    Array numbers = new Array(3);
+    /*Array numbers = new Array(2);
+    numbers.insert(5);
     numbers.insert(10);
-    numbers.insert(20);
-    numbers.insert(30);
-    numbers.insert(40); // This will trigger resizing of the array
+    numbers.insert(15);
+    numbers.insert(20); // This will trigger resizing of the array
+    numbers.removeAt(2);
     numbers.print();
+  }
+ }*/
+
+ // java collections framework
+ // interfaces and classes
+
+ class HelloDemo{
+  public static void main(String[] args){
+
+
+    /*int [] arr = new int[10];
+
+    int [] newArr = new int[arr.length * 2];
+    for (int i = 0 ; i < arr.length; i++){
+      newArr[i] = arr[i];
+    }
+    arr = newArr;
+    System.out.println(newArr.length);*/
+
+    //LinkedList<String> linkedList = new LinkedList<String>();
+    /*linkedList.push("A");
+    linkedList.push("B");
+    linkedList.push("C");
+    linkedList.push("D");
+    linkedList.push("F");
+    linkedList.pop(); // removes the last element*/
+
+    // linkedlist as Queue
+    /*linkedList.offer("A");
+    linkedList.offer("B");
+    linkedList.offer("C");
+    linkedList.offer("D");
+    linkedList.offer("F");*/
+    //linkedList.poll(); // removes the last element
+
+    /*linkedList.add(4, "E");
+    linkedList.remove("E");
+
+    System.out.println(linkedList);*/
+
+   /*  int [] myArr = new int[5];
+    myArr[0] = 1;
+    myArr[1] = 10;
+    myArr[2] = 6;
+    myArr[3] = 8;
+    myArr[4] = 15;
+    myArr[8] = 20;
+    
+
+    int[] newArr = new int[myArr.length* 2];
+    for (int i = 0; i < myArr.length; i++){
+      newArr[i] = myArr[i];
+    }
+    newArr = myArr;
+    System.out.println(Arrays.toString(newArr)); */
+
+    // ArrayList
+
+    /*List<String> myList = new ArrayList<>();
+    myList.add("Hello");
+    myList.add("Here");
+    System.out.println(myList);
+
+    String secondElement = myList.get(1);
+    System.out.println(secondElement);
+
+    myList.set(0, "Walker");
+    myList.remove(1);
+
+    //Linkedlist
+    List<Integer> myList2 = new LinkedList<>();
+    myList2.add(10);
+    myList2.add(3);
+    myList2.add(18);
+    myList2.add(9);
+    myList2.add(100);*/
+
+    //Iterator interface
+
+    // Iterator methods
+    // hasNext() , next() , remove()
+
+    ArrayList<Integer> numbers = new ArrayList<>();
+
+    numbers.add(10);
+    numbers.add(20);
+    numbers.add(30);
   }
  }

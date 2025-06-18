@@ -1,6 +1,6 @@
-public class Array {
+/*public class Array {
     private int[] items;
-    private int count;
+    private int count;// keeps track of how many elements have been inserted into the array
 
     public Array(int length){
         items = new int[length];
@@ -27,11 +27,33 @@ public class Array {
       items[count++] = item;
     }
 
+    public void removeAt(int index){
+      // validate the index
+      if( index < 0 || index >= count){
+        throw new IllegalArgumentException();
+      }
+      // shift the items to the left to fill the hole;
+      for ( int i = index ; i < count; i++){
+        items[i] = items[i+ 1]; 
 
+        count--;
+      }
+    }
 
+    public int indexOf(int item){
+      // If we find it , return index
+      // otherwise return -1
+      for(int i = 0; i< count ; i++)
+        if(items[i] == item)
+          return i;
+        
+
+      
+    }
     public void print(){
       for(int i = 0 ; i < count ; i++ ){
         System.out.println(items[i]);
       }
     }
 }
+    */
