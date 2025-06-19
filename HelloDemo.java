@@ -2,10 +2,10 @@
 //import java.util.Arrays;
 //import java.util.Arrays;
 //import java.util.LinkedList;
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Iterator;
+import java.util.Iterator;*/
 
 //public class HelloDemo{
   //public static void main(String[] args) {
@@ -290,8 +290,8 @@ import java.util.Iterator;
  // java collections framework
  // interfaces and classes
 
- class HelloDemo{
-  public static void main(String[] args){
+ //class HelloDemo{
+  //public static void main(String[] args){
 
 
     /*int [] arr = new int[10];
@@ -366,7 +366,7 @@ import java.util.Iterator;
     // Iterator methods
     // hasNext() , next() , remove()
 
-    ArrayList<Integer> numbers = new ArrayList<>();
+    /*ArrayList<Integer> numbers = new ArrayList<>();
 
     numbers.add(10);
     numbers.add(20);
@@ -383,6 +383,10 @@ import java.util.Iterator;
     System.out.println(number);
     System.out.println(iterate.hasNext());
     iterate.remove();
-    System.out.println("Removed Element: " + number);
-  }
- }
+    System.out.println("Removed Element: " + number);*/
+  //}
+ //}
+
+ //Stack collection
+ // OOP with java let's go
+
