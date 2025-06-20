@@ -1,4 +1,4 @@
-public class Shape {
+/*public class Shape {
   
   public double getArea(){
       return 0;
@@ -23,8 +23,8 @@ public class Shape {
 }
 
 class Rectangle extends Shape {
-  int width;
-  int height;
+  private int width;
+  private int height;
 
   @Override
   public double getArea(){
@@ -42,7 +42,7 @@ class Circle extends Shape{
 
 
   
-}
+}*/
 
 
    
